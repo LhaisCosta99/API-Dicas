@@ -4,12 +4,14 @@ import DicasModel from "../model/DicasModel.js"
 class Dicas{
     static rotas(app){
         app.get("/dica", (req, res) => {
-            const aleatoria =  Math.random() * (database.length - 0) + 0;
+            const aleatoria =  Math.round(Math.random() * (database.length - 1));
+            console.log(aleatoria);
             res.json(database[aleatoria])
         })
 
-        app.post("/dica", (req, res) => {
+        app.post("/criar", (req, res) => {
             const corpo = req.body
+            console.log(corpo)
             const dica = new DicasModel(corpo.dica, corpo.autor)
             database.push(dica)
             res.json({erro: false, message: "Dica cadastrada com sucesso!"})
