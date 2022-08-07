@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/LhaisCosta99/Todo8-M4-projeto2/issues"
   },
-  "homepage": "https://github.com/LhaisCosta99/Todo8-M4-projeto2#readme"
+  "homepage": "https://github.com/LhaisCosta99/Todo8-M4-projeto2#readme",
+  "type": "module"
 }
