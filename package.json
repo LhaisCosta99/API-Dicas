@@ -1,0 +1,19 @@
+{
+  "name": "todo8-m4-projeto2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LhaisCosta99/Todo8-M4-projeto2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LhaisCosta99/Todo8-M4-projeto2/issues"
+  },
+  "homepage": "https://github.com/LhaisCosta99/Todo8-M4-projeto2#readme"
+}
