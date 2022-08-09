@@ -5,11 +5,11 @@ const app =  express()
 
 const port = 3000
 
+app.use(express.json())
+Dicas(app)
 
 app.listen(port, () => {
     console.log(`Acesso ao servidor por http://localhost:${port}`);
 })
 
-app.use(express.json)
-Dicas.rotas(app)
 
