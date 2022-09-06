@@ -14,10 +14,10 @@ Basta rodar o comando abaixo selecionando e copiando o mesmo com as teclas "Ctrl
 ## Como rodar a aplicação
 
 ```
-git clone https://github.com/LhaisCosta99/Todo8-M4-projeto2
+git clone https://github.com/LhaisCosta99/API-Dicas
 ```
 ```
-cd Todo8-M4-projeto2
+cd API-Dicas
 ```
 ## Para intalar as depencias necsesarias .
 ```
